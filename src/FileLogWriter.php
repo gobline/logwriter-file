@@ -79,7 +79,7 @@ class FileLogWriter extends AbstractLogger
     }
 
     /**
-     * @param string $role
+     * @param string $level
      * @param string $message
      * @param array  $context
      */
