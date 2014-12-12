@@ -1,6 +1,6 @@
 docs/
 vendor/
-tests/resources/
+tests/resources/logfile-*
 apigen.neon
 composer.lock
 phpunit.xml
