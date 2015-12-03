@@ -103,7 +103,7 @@ class FileLogWriter extends AbstractLogger
             throw new \Exception('fopen() error on file: '.$path);
         }
 
-        $message  = '['.strtoupper($level).'] '.$message;
+        $message = '['.strtoupper($level).'] '.$message;
 
         if (isset($context['exception']) && $context['exception'] instanceof \Exception) {
             $message .= $this->getExceptionStackTrace($context['exception'], false);
