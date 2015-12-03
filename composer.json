@@ -1,6 +1,6 @@
 {
-    "name": "mendoframework/logwriter-file",
-    "description": "Mendo File Log Writer Component",
+    "name": "gobline/logwriter-file",
+    "description": "Gobline File Log Writer Component",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -9,19 +9,19 @@
         }
     ],
     "keywords": [
-        "mf", "mendoframework", "mendo framework",
+        "gobline",
         "logger", "logging", "log", "log writer"
     ],
-    "homepage": "https://github.com/mendoframework",
+    "homepage": "https://github.com/gobline",
     "autoload": {
         "psr-4": {
-            "Mendo\\Logger\\Writer\\": "src/"
+            "Gobline\\Logger\\Writer\\": "src/"
         }
     },
     "require": {
         "php": ">=5.5.0",
         "psr/log": "1.0.*@dev",
-        "mendoframework/logger": "~1.0"
+        "gobline/logger": "~1.0"
     },
     "require-dev": {
         "pimple/pimple": "3.0.*@dev",

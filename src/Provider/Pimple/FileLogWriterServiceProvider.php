@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Mendo Framework
+ * Gobline
  *
  * (c) Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  *
@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Mendo\Logger\Writer\Provider\Pimple;
+namespace Gobline\Logger\Writer\Provider\Pimple;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use Mendo\Logger\Writer\FileLogWriter;
+use Gobline\Logger\Writer\FileLogWriter;
 
 /**
  * @author Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>

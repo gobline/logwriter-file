@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Mendo Framework
+ * Gobline
  *
  * (c) Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  *
@@ -10,7 +10,7 @@
  */
 
 use Pimple\Container;
-use Mendo\Logger\Writer\Provider\Pimple\FileLogWriterServiceProvider;
+use Gobline\Logger\Writer\Provider\Pimple\FileLogWriterServiceProvider;
 
 /**
  * @author Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
@@ -23,6 +23,6 @@ class ServiceProviderTest extends PHPUnit_Framework_TestCase
 
         $container['logwriter.file.dir'] = '.';
         $container->register(new FileLogWriterServiceProvider());
-        $this->assertInstanceOf('Mendo\Logger\Writer\FileLogWriter', $container['logwriter.file']);
+        $this->assertInstanceOf('Gobline\Logger\Writer\FileLogWriter', $container['logwriter.file']);
     }
 }
